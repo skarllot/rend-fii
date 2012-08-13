@@ -25,7 +25,7 @@ CREATE TABLE `historico` (
   `data_base` date NOT NULL,
   `data_pgto` date DEFAULT NULL,
   `valor` decimal(16,2) DEFAULT NULL,
-  `rendimento` decimal(16,5) DEFAULT NULL,
+  `dist_mensal` decimal(16,5) DEFAULT NULL,
   PRIMARY KEY (`cod_ativo`,`data_base`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;

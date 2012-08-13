@@ -8,5 +8,5 @@ SELECT *,
         ((YEAR(DATE_SUB(h1.data_base, INTERVAL 1 MONTH))*100 +
         MONTH(DATE_SUB(h1.data_base, INTERVAL 1 MONTH))))
         LIMIT 0,1
-    )-h1.rendimento)-1 AS perc
+    )-h1.dist_mensal)-1 AS perc
 FROM historico AS h1
