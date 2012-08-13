@@ -1,0 +1,8 @@
+0	CRI
+1	Flats
+2	Fundo de Fundos
+3	Hospital
+4	Imóvel Comercial
+5	Imóvel Residencial
+6	Shopping Center
+7	Universidade
