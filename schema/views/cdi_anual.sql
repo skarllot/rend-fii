@@ -1,4 +1,4 @@
-CREATE VIEW `cdi_by_year` AS
+CREATE VIEW `cdi_anual` AS
 
 SELECT ano,
     count(*) as meses,

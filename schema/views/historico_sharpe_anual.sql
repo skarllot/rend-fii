@@ -1,4 +1,4 @@
-CREATE VIEW `historico_sharpe_by_year` AS
+CREATE VIEW `historico_sharpe_anual` AS
 
 SELECT h.cod_ativo,
     h.ano,

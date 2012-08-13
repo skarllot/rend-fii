@@ -1,4 +1,4 @@
-CREATE VIEW `historico_valor_by_year` AS
+CREATE VIEW `historico_valor_anual` AS
 
 SELECT
     h1.cod_ativo,

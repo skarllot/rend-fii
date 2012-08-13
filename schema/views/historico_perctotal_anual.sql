@@ -1,4 +1,4 @@
-CREATE VIEW `historico_perctotal_by_year` AS
+CREATE VIEW `historico_perctotal_anual` AS
 
 SELECT h.cod_ativo,
     YEAR(h.data_base) AS ano,
