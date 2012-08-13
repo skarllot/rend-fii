@@ -5,5 +5,5 @@ SELECT h.cod_ativo,
     h.perc,
     h.volatilidade,
     (h.perc-c.rendimento)/h.volatilidade as sharpe
-FROM historico_perctotal_by_year AS h
-INNER JOIN cdi_by_year AS c ON (h.ano = c.ano);
+FROM historico_perctotal_anual AS h
+INNER JOIN cdi_anual AS c ON (h.ano = c.ano);
